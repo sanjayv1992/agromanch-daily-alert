@@ -13,11 +13,11 @@
       "weather": {
         "tmax": 35,
         "tmin": 27,
-        "rain_prob": 8,
-        "rain_mm": 0.0,
+        "rain_prob": 27,
+        "rain_mm": 0.2,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 12 जून 2026, शुक्रवार\n📍 ज़िला: बलिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 35°/27°C, बारिश की संभावना 8%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 12 जून 2026, शुक्रवार\n📍 ज़िला: बलिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 35°/27°C, बारिश की संभावना 27%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Mau",
@@ -31,11 +31,11 @@
       "weather": {
         "tmax": 34,
         "tmin": 26,
-        "rain_prob": 6,
-        "rain_mm": 0.0,
+        "rain_prob": 45,
+        "rain_mm": 0.4,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 12 जून 2026, शुक्रवार\n📍 ज़िला: मऊ\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 34°/26°C, बारिश की संभावना 6%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 12 जून 2026, शुक्रवार\n📍 ज़िला: मऊ\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 34°/26°C, बारिश की संभावना 45%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Deoria",
@@ -47,13 +47,13 @@
         "potato": null
       },
       "weather": {
-        "tmax": 34,
+        "tmax": 35,
         "tmin": 26,
-        "rain_prob": 8,
-        "rain_mm": 0.0,
+        "rain_prob": 20,
+        "rain_mm": 0.2,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 12 जून 2026, शुक्रवार\n📍 ज़िला: देवरिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 34°/26°C, बारिश की संभावना 8%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 12 जून 2026, शुक्रवार\n📍 ज़िला: देवरिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 35°/26°C, बारिश की संभावना 20%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Ghazipur",
@@ -65,13 +65,13 @@
         "potato": null
       },
       "weather": {
-        "tmax": 35,
+        "tmax": 34,
         "tmin": 27,
-        "rain_prob": 14,
-        "rain_mm": 0.0,
+        "rain_prob": 69,
+        "rain_mm": 1.9,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 12 जून 2026, शुक्रवार\n📍 ज़िला: ग़ाज़ीपुर\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 35°/27°C, बारिश की संभावना 14%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 12 जून 2026, शुक्रवार\n📍 ज़िला: ग़ाज़ीपुर\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 34°/27°C, बारिश की संभावना 69%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Azamgarh",
@@ -85,11 +85,11 @@
       "weather": {
         "tmax": 34,
         "tmin": 26,
-        "rain_prob": 12,
-        "rain_mm": 0.8,
+        "rain_prob": 65,
+        "rain_mm": 0.3,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 12 जून 2026, शुक्रवार\n📍 ज़िला: आज़मगढ़\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 34°/26°C, बारिश की संभावना 12%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 12 जून 2026, शुक्रवार\n📍 ज़िला: आज़मगढ़\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 34°/26°C, बारिश की संभावना 65%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     }
   ]
 }
