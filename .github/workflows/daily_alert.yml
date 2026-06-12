@@ -1,0 +1,48 @@
+# Agromanch Daily Alert — रोज़ सुबह messages अपने आप बनाने वाला workflow.
+# यह GitHub के free servers पर चलता है — आपका laptop बंद हो तब भी।
+
+name: Agromanch Daily Alert
+
+on:
+  schedule:
+    # समय UTC में लिखा जाता है। 00:30 UTC = सुबह 6:00 IST.
+    # समय बदलना हो: IST में से 5 घंटे 30 मिनट घटाएँ।
+    # उदाहरण — सुबह 7:00 IST चाहिए तो '0 1 * * *' लिखें।
+    # (नोट: GitHub का free scheduler कभी-कभी 5-30 मिनट देर से चलता है — सामान्य बात है।)
+    - cron: '30 0 * * *'
+  # 'Actions' tab से कभी भी हाथ से चलाने के लिए:
+  workflow_dispatch:
+
+permissions:
+  contents: write   # updated page को repo में commit करने के लिए ज़रूरी
+
+jobs:
+  build-daily-page:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo checkout
+        uses: actions/checkout@v4
+
+      - name: Python setup
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Dependencies install
+        run: pip install -r requirements.txt
+
+      - name: Messages + page generate
+        env:
+          # API key GitHub secret से आती है — README का step 2 देखें।
+          # (Repo → Settings → Secrets and variables → Actions → New repository secret)
+          DATA_GOV_API_KEY: ${{ secrets.DATA_GOV_API_KEY }}
+        run: python daily_alert/main.py
+
+      - name: Updated page commit & push
+        run: |
+          git config user.name "agromanch-bot"
+          git config user.email "actions@github.com"
+          git add docs/
+          # कुछ बदला हो तभी commit करो (वरना job fail हो जाती)
+          git diff --cached --quiet || git commit -m "Daily alert: $(date -u +'%Y-%m-%d')"
+          git push

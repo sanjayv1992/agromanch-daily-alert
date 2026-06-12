@@ -1,0 +1,2 @@
+# Agromanch Daily Alert — सिर्फ एक dependency
+requests>=2.31

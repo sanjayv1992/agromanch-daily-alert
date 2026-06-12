@@ -1,0 +1,10 @@
+date,district,crop,price_per_quintal,note
+# यह fallback फाइल है — जब API से किसी ज़िले/फसल का भाव न मिले तो यहाँ से लिया जाएगा।
+# date = DD-MM-YYYY (आज की तारीख लिखें, पुराना भाव अपने आप छूट जाएगा)
+# district = Ballia / Mau / Deoria / Ghazipur / Azamgarh (English में, config जैसा)
+# crop = wheat / paddy / mustard / potato (config में दिए 'key' जैसा)
+# price_per_quintal = ₹ में सिर्फ नंबर
+# note = (optional) कौन सी मंडी या किससे पता चला
+# नीचे की लाइनें सिर्फ उदाहरण हैं — तारीख पुरानी है इसलिए ये use नहीं होंगी। अपनी लाइनें जोड़ें।
+01-01-2026,Ballia,wheat,2300,रसड़ा मंडी फोन से
+01-01-2026,Mau,potato,1150,घोसी मंडी

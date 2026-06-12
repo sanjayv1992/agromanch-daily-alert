@@ -1,0 +1,45 @@
+{
+  "_comment_hindi": "यह मुख्य सेटिंग फाइल है। ज़िले, फसलें, API key — सब यहीं बदलें।",
+
+  "_comment_api_key": "data.gov.in से free API key लें (README देखें)। GitHub पर चलाते समय key 'DATA_GOV_API_KEY' secret से आएगी — नीचे वाली सिर्फ laptop पर टेस्ट करने के लिए है।",
+  "data_gov_api_key": "YAHAN_APNI_DATA_GOV_KEY_DALEIN",
+
+  "_comment_resource": "Agmarknet daily mandi prices का resource ID — इसे बदलने की ज़रूरत नहीं।",
+  "agmarknet_resource_id": "9ef84268-d588-465a-a308-a864a43d0070",
+
+  "state": "Uttar Pradesh",
+
+  "_comment_rate_age": "मंडी का भाव कितने दिन पुराना चलेगा (Agmarknet अक्सर 1 दिन पीछे रहता है)। इससे पुराना भाव नहीं दिखाएँगे।",
+  "max_rate_age_days": 2,
+
+  "_comment_districts": "नया ज़िला जोड़ने के लिए नीचे एक और लाइन जोड़ें। lat/lon मौसम के लिए ज़रूरी है (Google Maps से मिल जाएगा)।",
+  "districts": [
+    { "name": "Ballia",   "hindi": "बलिया",    "lat": 25.7585, "lon": 84.1487 },
+    { "name": "Mau",      "hindi": "मऊ",       "lat": 25.9417, "lon": 83.5611 },
+    { "name": "Deoria",   "hindi": "देवरिया",   "lat": 26.5024, "lon": 83.7791 },
+    { "name": "Ghazipur", "hindi": "ग़ाज़ीपुर",  "lat": 25.5878, "lon": 83.5783 },
+    { "name": "Azamgarh", "hindi": "आज़मगढ़",   "lat": 26.0685, "lon": 83.1836 }
+  ],
+
+  "_comment_crops": "key = manual_rates.csv में लिखने वाला नाम। agmarknet_names = API में commodity का नाम (एक से ज़्यादा हो सकते हैं)।",
+  "crops": [
+    { "key": "wheat",   "hindi": "गेहूं",  "agmarknet_names": ["Wheat"] },
+    { "key": "paddy",   "hindi": "धान",   "agmarknet_names": ["Paddy(Dhan)(Common)", "Paddy(Dhan)(Basmati)", "Paddy"] },
+    { "key": "mustard", "hindi": "सरसों", "agmarknet_names": ["Mustard", "Mustard(Black)"] },
+    { "key": "potato",  "hindi": "आलू",   "agmarknet_names": ["Potato"] }
+  ],
+
+  "_comment_weather": "चेतावनी की सीमाएँ — बारिश की संभावना (%), बारिश (mm), गर्मी (°C)। ज़रूरत हो तो बदलें।",
+  "weather": {
+    "rain_probability_warning": 70,
+    "rain_mm_warning": 15,
+    "heat_warning_celsius": 41,
+    "cold_warning_celsius": 5
+  },
+
+  "app_link": "https://play.google.com/store/apps/details?id=com.agromanch.app",
+
+  "_comment_output": "HTML page कहाँ बनेगी (repo root से)। GitHub Pages 'docs' folder से serve करता है।",
+  "output_html": "docs/index.html",
+  "output_json": "docs/data/latest.json"
+}
