@@ -8,6 +8,7 @@ fetch_mandi.py — data.gov.in (Agmarknet) से मंडी भाव ला�
 
 import csv
 import os
+import time
 from datetime import date, datetime, timedelta
 
 import requests
@@ -52,15 +53,23 @@ def fetch_district_records(config, district_name):
         "filters[state.keyword]": config["state"],
         "filters[district]": district_name,
     }
-    try:
-        resp = requests.get(url, params=params, timeout=30)
-        resp.raise_for_status()
-        records = resp.json().get("records", [])
-        print(f"  [mandi] {district_name}: API से {len(records)} records मिले")
-        return records
-    except Exception as e:
-        print(f"  [mandi] {district_name}: API error ({e}) — manual fallback use होगा")
-        return []
+    # data.gov.in API अक्सर धीमी रहती है — इसलिए 3 बार कोशिश (हर बार ज़्यादा इंतज़ार)।
+    # जैसे ही जवाब मिल जाए, बाकी कोशिशें छोड़ देते हैं।
+    last_error = None
+    for attempt in range(1, 4):
+        try:
+            resp = requests.get(url, params=params, timeout=60)
+            resp.raise_for_status()
+            records = resp.json().get("records", [])
+            print(f"  [mandi] {district_name}: API से {len(records)} records मिले"
+                  f"{'' if attempt == 1 else f' (कोशिश {attempt})'}")
+            return records
+        except Exception as e:
+            last_error = e
+            if attempt < 3:
+                time.sleep(5 * attempt)  # 5s, फिर 10s रुककर दोबारा
+    print(f"  [mandi] {district_name}: API error ({last_error}) — manual fallback use होगा")
+    return []
 
 
 def _match_crop(commodity_name, crop):
