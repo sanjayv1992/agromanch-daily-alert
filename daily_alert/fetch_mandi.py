@@ -15,6 +15,15 @@ import requests
 
 API_BASE = "https://api.data.gov.in/resource/"
 
+# कुछ सरकारी firewall 'python-requests' वाली requests को रोक/अटका देते हैं।
+# इसलिए browser जैसा User-Agent भेजते हैं ताकि request सामान्य लगे।
+HTTP_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "application/json",
+}
+
 
 def _parse_date(text):
     """Agmarknet तारीख DD/MM/YYYY देता है, manual CSV में DD-MM-YYYY लिखते हैं।"""
@@ -58,7 +67,7 @@ def fetch_district_records(config, district_name):
     last_error = None
     for attempt in range(1, 4):
         try:
-            resp = requests.get(url, params=params, timeout=60)
+            resp = requests.get(url, params=params, headers=HTTP_HEADERS, timeout=60)
             resp.raise_for_status()
             records = resp.json().get("records", [])
             print(f"  [mandi] {district_name}: API से {len(records)} records मिले"
