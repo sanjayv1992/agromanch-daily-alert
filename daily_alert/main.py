@@ -49,7 +49,6 @@ def main():
     for district in config["districts"]:
         msg = build_message(
             district=district,
-            crops_config=config["crops"],
             rates=rates_all[district["name"]],
             weather=weather_all[district["name"]],
             app_link=config["app_link"],

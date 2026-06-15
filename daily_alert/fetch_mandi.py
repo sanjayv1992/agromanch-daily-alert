@@ -81,17 +81,31 @@ def fetch_district_records(config, district_name):
     return []
 
 
-def _match_crop(commodity_name, crop):
-    """API का commodity नाम config की crop से मिलाओ (case-insensitive)।"""
-    c = (commodity_name or "").strip().lower()
-    return any(c.startswith(n.lower()) for n in crop["agmarknet_names"])
+def _norm_commodity(name):
+    """API का commodity नाम साफ़ करो — कोष्ठक हटाकर मुख्य नाम।
+    जैसे 'Paddy(Common)' -> 'Paddy', 'Bhindi(Ladies Finger)' -> 'Bhindi'."""
+    return (name or "").split("(")[0].strip()
 
 
-def _pick_rate_from_api(records, crop, oldest_ok):
-    """इस फसल का सबसे ताज़ा भाव चुनो (oldest_ok से पुराना नहीं)।"""
-    best = None
+def _hindi_for(commodity_norm, commodity_hindi):
+    """commodity का Hindi नाम — map में हो तो वही, वरना अंग्रेज़ी नाम ही दिखा दो।
+    (case-insensitive match ताकि 'wheat'/'Wheat' दोनों चलें)"""
+    if not commodity_norm:
+        return None
+    for eng, hin in commodity_hindi.items():
+        if eng.lower() == commodity_norm.lower():
+            return hin
+    return commodity_norm  # अनजान फसल भी छूटे नहीं — अंग्रेज़ी नाम से दिखेगी
+
+
+def _api_rates_by_hindi(records, oldest_ok, commodity_hindi, ignore):
+    """एक ज़िले के API records से हर फसल का सबसे ताज़ा भाव (Hindi नाम के हिसाब से)।
+    एक ही Hindi नाम पर कई commodity (जैसे Rice+Paddy=धान) आएँ तो सबसे ताज़ा/पहला रखता है।
+    Returns: {hindi_name: rate_dict}"""
+    rates = {}
     for r in records:
-        if not _match_crop(r.get("commodity"), crop):
+        norm = _norm_commodity(r.get("commodity"))
+        if not norm or norm.lower() in ignore:
             continue
         d = _parse_date(r.get("arrival_date", ""))
         if d is None or d < oldest_ok:
@@ -102,14 +116,17 @@ def _pick_rate_from_api(records, crop, oldest_ok):
             continue
         if price <= 0:
             continue
-        if best is None or d > best["date"]:
-            best = {
-                "price": price,
-                "date": d,
-                "source": (r.get("market") or "").strip() + " मंडी",
-                "from": "api",
-            }
-    return best
+        hindi = _hindi_for(norm, commodity_hindi)
+        cand = {
+            "price": price,
+            "date": d,
+            "source": (r.get("market") or "").strip() + " मंडी",
+            "from": "api",
+        }
+        existing = rates.get(hindi)
+        if existing is None or d > existing["date"]:
+            rates[hindi] = cand
+    return rates
 
 
 def load_manual_rates(csv_path, oldest_ok):
@@ -142,24 +159,44 @@ def load_manual_rates(csv_path, oldest_ok):
     return rates
 
 
+def _ordered(rates, priority_hindi):
+    """फसलें क्रम में लगाओ — पहले config की priority फसलें (धान, गेहूं...),
+    फिर बाकी सब Hindi नाम के अक्षर-क्रम में।"""
+    def rank(hindi):
+        return (priority_hindi.index(hindi) if hindi in priority_hindi
+                else len(priority_hindi), hindi)
+    return {h: rates[h] for h in sorted(rates, key=rank)}
+
+
 def get_all_rates(config, base_dir):
     """
-    मुख्य function: हर ज़िले की हर फसल का भाव (API पहले, फिर manual fallback)।
-    Returns: {district_name: {crop_key: rate_dict_or_None}}
+    मुख्य function: हर ज़िले में जो भी फसल मंडी में है, उस सबका भाव।
+    API से सारी commodity (Hindi में) लाता है, फिर manual_rates.csv की बची फसलें जोड़ता है।
+    Returns: {district_name: {hindi_name: rate_dict}}  (खाली भी हो सकता है)
     """
     today = date.today()
     oldest_ok = today - timedelta(days=int(config.get("max_rate_age_days", 2)))
     manual = load_manual_rates(os.path.join(base_dir, "manual_rates.csv"), oldest_ok)
 
+    commodity_hindi = config.get("commodity_hindi", {})
+    ignore = {x.lower() for x in config.get("ignore_commodities", [])}
+    # manual CSV का crop key -> Hindi (config crops से)
+    crop_key_hindi = {c["key"].lower(): c["hindi"] for c in config.get("crops", [])}
+    # दिखाने का क्रम: config crops की Hindi सूची सबसे ऊपर
+    priority_hindi = [c["hindi"] for c in config.get("crops", [])]
+
     result = {}
     for district in config["districts"]:
         name = district["name"]
         records = fetch_district_records(config, name)
-        crops = {}
-        for crop in config["crops"]:
-            rate = _pick_rate_from_api(records, crop, oldest_ok)
-            if rate is None:
-                rate = manual.get((name.lower(), crop["key"].lower()))
-            crops[crop["key"]] = rate  # None भी हो सकता है = आज भाव उपलब्ध नहीं
-        result[name] = crops
+        rates = _api_rates_by_hindi(records, oldest_ok, commodity_hindi, ignore)
+
+        # manual entries — सिर्फ वहीं जहाँ API से वो फसल नहीं मिली (API को प्राथमिकता)
+        for (dist_l, crop_l), rate in manual.items():
+            if dist_l != name.lower():
+                continue
+            hindi = crop_key_hindi.get(crop_l, crop_l)
+            rates.setdefault(hindi, rate)
+
+        result[name] = _ordered(rates, priority_hindi)
     return result

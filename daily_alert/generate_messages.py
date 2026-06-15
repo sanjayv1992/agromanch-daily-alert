@@ -21,8 +21,9 @@ def hindi_date(d):
     return f"{d.day} {HINDI_MONTHS[d.month - 1]} {d.year}, {HINDI_DAYS[d.weekday()]}"
 
 
-def build_message(district, crops_config, rates, weather, app_link, today):
-    """एक ज़िले का WhatsApp-ready Hindi message (plain text)।"""
+def build_message(district, rates, weather, app_link, today):
+    """एक ज़िले का WhatsApp-ready Hindi message (plain text)।
+    rates = {hindi_name: rate_dict} — जो भी फसल उपलब्ध है, सब दिखेगी।"""
     lines = [
         "🌾 *अग्रोमंच दैनिक भाव*",
         f"📅 {hindi_date(today)}",
@@ -30,13 +31,12 @@ def build_message(district, crops_config, rates, weather, app_link, today):
         "",
     ]
 
-    # --- मंडी भाव ---
+    # --- मंडी भाव (जो भी फसल उपलब्ध, सब) ---
     rate_lines = []
-    for crop in crops_config:
-        rate = rates.get(crop["key"])
+    for crop_hindi, rate in rates.items():
         if rate is None:
             continue  # जो भाव है ही नहीं, वह message में नहीं जाएगा — no fake data
-        line = f"• {crop['hindi']}: ₹{rate['price']}"
+        line = f"• {crop_hindi}: ₹{rate['price']}"
         if rate.get("source"):
             line += f" ({rate['source']}"
             # सिर्फ पुराना भाव हो तो तारीख बताओ — भरोसे के लिए
