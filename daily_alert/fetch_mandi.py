@@ -98,9 +98,20 @@ def _hindi_for(commodity_norm, commodity_hindi):
     return commodity_norm  # अनजान फसल भी छूटे नहीं — अंग्रेज़ी नाम से दिखेगी
 
 
-def _api_rates_by_hindi(records, oldest_ok, commodity_hindi, ignore):
+def _in_range(price, hindi, price_range):
+    """भाव सही सीमा में है या नहीं। जिस फसल की सीमा तय नहीं, वह हमेशा सही मानी जाती है।"""
+    bounds = price_range.get(hindi)
+    if not bounds:
+        return True
+    lo, hi = bounds
+    return lo <= price <= hi
+
+
+def _api_rates_by_hindi(records, oldest_ok, commodity_hindi, ignore, price_range,
+                        district_name=""):
     """एक ज़िले के API records से हर फसल का सबसे ताज़ा भाव (Hindi नाम के हिसाब से)।
     एक ही Hindi नाम पर कई commodity (जैसे Rice+Paddy=धान) आएँ तो सबसे ताज़ा/पहला रखता है।
+    तय सीमा से बाहर का भाव छाँट दिया जाता है।
     Returns: {hindi_name: rate_dict}"""
     rates = {}
     for r in records:
@@ -117,6 +128,9 @@ def _api_rates_by_hindi(records, oldest_ok, commodity_hindi, ignore):
         if price <= 0:
             continue
         hindi = _hindi_for(norm, commodity_hindi)
+        if not _in_range(price, hindi, price_range):
+            print(f"  [mandi] {district_name}: {hindi} ₹{price} सीमा से बाहर — छोड़ा")
+            continue
         cand = {
             "price": price,
             "date": d,
@@ -180,6 +194,7 @@ def get_all_rates(config, base_dir):
 
     commodity_hindi = config.get("commodity_hindi", {})
     ignore = {x.lower() for x in config.get("ignore_commodities", [])}
+    price_range = config.get("price_range", {})
     # manual CSV का crop key -> Hindi (config crops से)
     crop_key_hindi = {c["key"].lower(): c["hindi"] for c in config.get("crops", [])}
     # दिखाने का क्रम: config crops की Hindi सूची सबसे ऊपर
@@ -189,7 +204,8 @@ def get_all_rates(config, base_dir):
     for district in config["districts"]:
         name = district["name"]
         records = fetch_district_records(config, name)
-        rates = _api_rates_by_hindi(records, oldest_ok, commodity_hindi, ignore)
+        rates = _api_rates_by_hindi(records, oldest_ok, commodity_hindi, ignore,
+                                    price_range, name)
 
         # manual entries — सिर्फ वहीं जहाँ API से वो फसल नहीं मिली (API को प्राथमिकता)
         for (dist_l, crop_l), rate in manual.items():
