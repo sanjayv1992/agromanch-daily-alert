@@ -7,17 +7,23 @@
       "rates": {
         "wheat": null,
         "paddy": null,
+        "rice": {
+          "price": 2500,
+          "date": "2026-06-15",
+          "source": "Rasda APMC मंडी",
+          "from": "api"
+        },
         "mustard": null,
         "potato": null
       },
       "weather": {
         "tmax": 37,
         "tmin": 28,
-        "rain_prob": 6,
+        "rain_prob": 11,
         "rain_mm": 0.0,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 15 जून 2026, सोमवार\n📍 ज़िला: बलिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 37°/28°C, बारिश की संभावना 6%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 15 जून 2026, सोमवार\n📍 ज़िला: बलिया\n\n*मंडी भाव (₹/क्विंटल):*\n• चावल: ₹2500 (Rasda APMC मंडी)\n\n*मौसम:* 37°/28°C, बारिश की संभावना 11%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Mau",
@@ -25,35 +31,52 @@
       "rates": {
         "wheat": null,
         "paddy": null,
+        "rice": null,
         "mustard": null,
-        "potato": null
+        "potato": {
+          "price": 800,
+          "date": "2026-06-15",
+          "source": "Kopaganj APMC मंडी",
+          "from": "api"
+        }
       },
       "weather": {
-        "tmax": 38,
+        "tmax": 37,
         "tmin": 27,
-        "rain_prob": 2,
+        "rain_prob": 6,
         "rain_mm": 0.0,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 15 जून 2026, सोमवार\n📍 ज़िला: मऊ\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 38°/27°C, बारिश की संभावना 2%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 15 जून 2026, सोमवार\n📍 ज़िला: मऊ\n\n*मंडी भाव (₹/क्विंटल):*\n• आलू: ₹800 (Kopaganj APMC मंडी)\n\n*मौसम:* 37°/27°C, बारिश की संभावना 6%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Deoria",
       "hindi": "देवरिया",
       "rates": {
         "wheat": null,
-        "paddy": null,
+        "paddy": {
+          "price": 2200,
+          "date": "2026-06-15",
+          "source": "Devariya APMC मंडी",
+          "from": "api"
+        },
+        "rice": {
+          "price": 2000,
+          "date": "2026-06-15",
+          "source": "Devariya APMC मंडी",
+          "from": "api"
+        },
         "mustard": null,
         "potato": null
       },
       "weather": {
-        "tmax": 37,
-        "tmin": 26,
-        "rain_prob": 2,
+        "tmax": 38,
+        "tmin": 27,
+        "rain_prob": 12,
         "rain_mm": 0.0,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 15 जून 2026, सोमवार\n📍 ज़िला: देवरिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 37°/26°C, बारिश की संभावना 2%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 15 जून 2026, सोमवार\n📍 ज़िला: देवरिया\n\n*मंडी भाव (₹/क्विंटल):*\n• धान: ₹2200 (Devariya APMC मंडी)\n• चावल: ₹2000 (Devariya APMC मंडी)\n\n*मौसम:* 38°/27°C, बारिश की संभावना 12%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Ghazipur",
@@ -61,35 +84,52 @@
       "rates": {
         "wheat": null,
         "paddy": null,
+        "rice": {
+          "price": 2300,
+          "date": "2026-06-15",
+          "source": "Jangipura APMC मंडी",
+          "from": "api"
+        },
         "mustard": null,
         "potato": null
       },
       "weather": {
         "tmax": 38,
         "tmin": 28,
-        "rain_prob": 2,
+        "rain_prob": 4,
         "rain_mm": 0.0,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 15 जून 2026, सोमवार\n📍 ज़िला: ग़ाज़ीपुर\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 38°/28°C, बारिश की संभावना 2%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 15 जून 2026, सोमवार\n📍 ज़िला: ग़ाज़ीपुर\n\n*मंडी भाव (₹/क्विंटल):*\n• चावल: ₹2300 (Jangipura APMC मंडी)\n\n*मौसम:* 38°/28°C, बारिश की संभावना 4%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Azamgarh",
       "hindi": "आज़मगढ़",
       "rates": {
-        "wheat": null,
+        "wheat": {
+          "price": 2425,
+          "date": "2026-06-15",
+          "source": "Azamgarh APMC मंडी",
+          "from": "api"
+        },
         "paddy": null,
+        "rice": {
+          "price": 2400,
+          "date": "2026-06-15",
+          "source": "Azamgarh APMC मंडी",
+          "from": "api"
+        },
         "mustard": null,
         "potato": null
       },
       "weather": {
         "tmax": 37,
         "tmin": 27,
-        "rain_prob": 4,
-        "rain_mm": 0.0,
+        "rain_prob": 10,
+        "rain_mm": 0.4,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 15 जून 2026, सोमवार\n📍 ज़िला: आज़मगढ़\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 37°/27°C, बारिश की संभावना 4%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 15 जून 2026, सोमवार\n📍 ज़िला: आज़मगढ़\n\n*मंडी भाव (₹/क्विंटल):*\n• गेहूं: ₹2425 (Azamgarh APMC मंडी)\n• चावल: ₹2400 (Azamgarh APMC मंडी)\n\n*मौसम:* 37°/27°C, बारिश की संभावना 10%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     }
   ]
 }
