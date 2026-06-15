@@ -39,8 +39,9 @@ def build_message(district, crops_config, rates, weather, app_link, today):
         line = f"• {crop['hindi']}: ₹{rate['price']}"
         if rate.get("source"):
             line += f" ({rate['source']}"
-            # पुराना भाव हो तो तारीख भी बताओ — भरोसे के लिए
-            if rate["date"] != today:
+            # सिर्फ पुराना भाव हो तो तारीख बताओ — भरोसे के लिए
+            # (आज/नई तारीख पर नहीं, वरना उलझन होती है)
+            if rate["date"] < today:
                 line += f", {rate['date'].day} {HINDI_MONTHS[rate['date'].month - 1]}"
             line += ")"
         rate_lines.append(line)
