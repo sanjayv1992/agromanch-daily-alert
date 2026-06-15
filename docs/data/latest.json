@@ -32,7 +32,7 @@
       "hindi": "मऊ",
       "rates": {
         "धान": {
-          "price": 4669,
+          "price": 2300,
           "date": "2026-06-15",
           "source": "Kopaganj APMC मंडी",
           "from": "api"
@@ -141,7 +141,7 @@
         "rain_mm": 0.0,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 15 जून 2026, सोमवार\n📍 ज़िला: मऊ\n\n*मंडी भाव (₹/क्विंटल):*\n• धान: ₹4669 (Kopaganj APMC मंडी)\n• गेहूं: ₹2591 (Kopaganj APMC मंडी)\n• आलू: ₹1000 (Doharighat APMC मंडी)\n• अरहर: ₹10847 (Kopaganj APMC मंडी)\n• आम: ₹5600 (Kopaganj APMC मंडी)\n• करेला: ₹3200 (Kopaganj APMC मंडी)\n• केला: ₹3300 (Kopaganj APMC मंडी)\n• गुड़: ₹4200 (Doharighat APMC मंडी)\n• टमाटर: ₹1500 (Kopaganj APMC मंडी)\n• नींबू: ₹5550 (Doharighat APMC मंडी)\n• प्याज: ₹1600 (Kopaganj APMC मंडी)\n• फूलगोभी: ₹1500 (Kopaganj APMC मंडी)\n• बैंगन: ₹1700 (Kopaganj APMC मंडी)\n• भिंडी: ₹2300 (Kopaganj APMC मंडी)\n• लहसुन: ₹4500 (Kopaganj APMC मंडी)\n• लौकी: ₹1400 (Kopaganj APMC मंडी)\n• हरी मिर्च: ₹4600 (Doharighat APMC मंडी)\n\n*मौसम:* 37°/27°C, बारिश की संभावना 6%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 15 जून 2026, सोमवार\n📍 ज़िला: मऊ\n\n*मंडी भाव (₹/क्विंटल):*\n• धान: ₹2300 (Kopaganj APMC मंडी)\n• गेहूं: ₹2591 (Kopaganj APMC मंडी)\n• आलू: ₹1000 (Doharighat APMC मंडी)\n• अरहर: ₹10847 (Kopaganj APMC मंडी)\n• आम: ₹5600 (Kopaganj APMC मंडी)\n• करेला: ₹3200 (Kopaganj APMC मंडी)\n• केला: ₹3300 (Kopaganj APMC मंडी)\n• गुड़: ₹4200 (Doharighat APMC मंडी)\n• टमाटर: ₹1500 (Kopaganj APMC मंडी)\n• नींबू: ₹5550 (Doharighat APMC मंडी)\n• प्याज: ₹1600 (Kopaganj APMC मंडी)\n• फूलगोभी: ₹1500 (Kopaganj APMC मंडी)\n• बैंगन: ₹1700 (Kopaganj APMC मंडी)\n• भिंडी: ₹2300 (Kopaganj APMC मंडी)\n• लहसुन: ₹4500 (Kopaganj APMC मंडी)\n• लौकी: ₹1400 (Kopaganj APMC मंडी)\n• हरी मिर्च: ₹4600 (Doharighat APMC मंडी)\n\n*मौसम:* 37°/27°C, बारिश की संभावना 6%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Deoria",
