@@ -1,25 +1,74 @@
 {
-  "date": "2026-06-22",
+  "date": "2026-06-23",
   "districts": [
     {
       "name": "Ballia",
       "hindi": "बलिया",
-      "rates": {},
+      "rates": {
+        "धान": {
+          "price": 2400,
+          "date": "2026-06-22",
+          "source": "Ballia APMC मंडी",
+          "from": "api"
+        },
+        "गेहूं": {
+          "price": 2600,
+          "date": "2026-06-22",
+          "source": "Vilthararoad APMC मंडी",
+          "from": "api"
+        },
+        "मक्का": {
+          "price": 2310,
+          "date": "2026-06-22",
+          "source": "Ballia APMC मंडी",
+          "from": "api"
+        },
+        "महुआ": {
+          "price": 2100,
+          "date": "2026-06-22",
+          "source": "Ballia APMC मंडी",
+          "from": "api"
+        }
+      },
       "weather": {
-        "tmax": 37,
-        "tmin": 29,
-        "rain_prob": 33,
-        "rain_mm": 0.6,
+        "tmax": 38,
+        "tmin": 28,
+        "rain_prob": 2,
+        "rain_mm": 0.0,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 22 जून 2026, सोमवार\n📍 ज़िला: बलिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 37°/29°C, बारिश की संभावना 33%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 23 जून 2026, मंगलवार\n📍 ज़िला: बलिया\n\n*मंडी भाव (₹/क्विंटल):*\n• धान: ₹2400 (Ballia APMC मंडी, 22 जून)\n• गेहूं: ₹2600 (Vilthararoad APMC मंडी, 22 जून)\n• मक्का: ₹2310 (Ballia APMC मंडी, 22 जून)\n• महुआ: ₹2100 (Ballia APMC मंडी, 22 जून)\n\n*मौसम:* 38°/28°C, बारिश की संभावना 2%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Mau",
       "hindi": "मऊ",
       "rates": {
+        "धान": {
+          "price": 2500,
+          "date": "2026-06-22",
+          "source": "Doharighat APMC मंडी",
+          "from": "api"
+        },
+        "गेहूं": {
+          "price": 2590,
+          "date": "2026-06-22",
+          "source": "Kopaganj APMC मंडी",
+          "from": "api"
+        },
+        "आलू": {
+          "price": 1000,
+          "date": "2026-06-22",
+          "source": "Doharighat APMC मंडी",
+          "from": "api"
+        },
         "Apple": {
           "price": 9500,
+          "date": "2026-06-22",
+          "source": "Kopaganj APMC मंडी",
+          "from": "api"
+        },
+        "अरहर": {
+          "price": 10400,
           "date": "2026-06-22",
           "source": "Kopaganj APMC मंडी",
           "from": "api"
@@ -42,16 +91,34 @@
           "source": "Kopaganj APMC मंडी",
           "from": "api"
         },
+        "गुड़": {
+          "price": 4208,
+          "date": "2026-06-22",
+          "source": "Doharighat APMC मंडी",
+          "from": "api"
+        },
         "टमाटर": {
           "price": 1500,
           "date": "2026-06-22",
           "source": "Kopaganj APMC मंडी",
           "from": "api"
         },
-        "प्याज": {
-          "price": 1500,
+        "नींबू": {
+          "price": 5550,
           "date": "2026-06-22",
-          "source": "Kopaganj APMC मंडी",
+          "source": "Doharighat APMC मंडी",
+          "from": "api"
+        },
+        "प्याज": {
+          "price": 1600,
+          "date": "2026-06-22",
+          "source": "Doharighat APMC मंडी",
+          "from": "api"
+        },
+        "फूलगोभी": {
+          "price": 1700,
+          "date": "2026-06-22",
+          "source": "Doharighat APMC मंडी",
           "from": "api"
         },
         "बैंगन": {
@@ -66,60 +133,153 @@
           "source": "Kopaganj APMC मंडी",
           "from": "api"
         },
-        "हरी मिर्च": {
-          "price": 3500,
+        "लहसुन": {
+          "price": 5000,
           "date": "2026-06-22",
           "source": "Kopaganj APMC मंडी",
+          "from": "api"
+        },
+        "हरी मिर्च": {
+          "price": 4450,
+          "date": "2026-06-22",
+          "source": "Doharighat APMC मंडी",
           "from": "api"
         }
       },
       "weather": {
-        "tmax": 37,
-        "tmin": 27,
-        "rain_prob": 38,
-        "rain_mm": 0.9,
+        "tmax": 38,
+        "tmin": 28,
+        "rain_prob": 6,
+        "rain_mm": 0.4,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 22 जून 2026, सोमवार\n📍 ज़िला: मऊ\n\n*मंडी भाव (₹/क्विंटल):*\n• Apple: ₹9500 (Kopaganj APMC मंडी)\n• आम: ₹5600 (Kopaganj APMC मंडी)\n• करेला: ₹3200 (Kopaganj APMC मंडी)\n• खीरा: ₹1500 (Kopaganj APMC मंडी)\n• टमाटर: ₹1500 (Kopaganj APMC मंडी)\n• प्याज: ₹1500 (Kopaganj APMC मंडी)\n• बैंगन: ₹1700 (Kopaganj APMC मंडी)\n• भिंडी: ₹2300 (Kopaganj APMC मंडी)\n• हरी मिर्च: ₹3500 (Kopaganj APMC मंडी)\n\n*मौसम:* 37°/27°C, बारिश की संभावना 38%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 23 जून 2026, मंगलवार\n📍 ज़िला: मऊ\n\n*मंडी भाव (₹/क्विंटल):*\n• धान: ₹2500 (Doharighat APMC मंडी, 22 जून)\n• गेहूं: ₹2590 (Kopaganj APMC मंडी, 22 जून)\n• आलू: ₹1000 (Doharighat APMC मंडी, 22 जून)\n• Apple: ₹9500 (Kopaganj APMC मंडी, 22 जून)\n• अरहर: ₹10400 (Kopaganj APMC मंडी, 22 जून)\n• आम: ₹5600 (Kopaganj APMC मंडी, 22 जून)\n• करेला: ₹3200 (Kopaganj APMC मंडी, 22 जून)\n• खीरा: ₹1500 (Kopaganj APMC मंडी, 22 जून)\n• गुड़: ₹4208 (Doharighat APMC मंडी, 22 जून)\n• टमाटर: ₹1500 (Kopaganj APMC मंडी, 22 जून)\n• नींबू: ₹5550 (Doharighat APMC मंडी, 22 जून)\n• प्याज: ₹1600 (Doharighat APMC मंडी, 22 जून)\n• फूलगोभी: ₹1700 (Doharighat APMC मंडी, 22 जून)\n• बैंगन: ₹1700 (Kopaganj APMC मंडी, 22 जून)\n• भिंडी: ₹2300 (Kopaganj APMC मंडी, 22 जून)\n• लहसुन: ₹5000 (Kopaganj APMC मंडी, 22 जून)\n• हरी मिर्च: ₹4450 (Doharighat APMC मंडी, 22 जून)\n\n*मौसम:* 38°/28°C, बारिश की संभावना 6%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Deoria",
       "hindi": "देवरिया",
-      "rates": {},
+      "rates": {
+        "धान": {
+          "price": 2000,
+          "date": "2026-06-22",
+          "source": "Devariya APMC मंडी",
+          "from": "api"
+        },
+        "गेहूं": {
+          "price": 2450,
+          "date": "2026-06-22",
+          "source": "Devariya APMC मंडी",
+          "from": "api"
+        }
+      },
       "weather": {
-        "tmax": 37,
-        "tmin": 28,
-        "rain_prob": 49,
-        "rain_mm": 0.5,
+        "tmax": 36,
+        "tmin": 27,
+        "rain_prob": 14,
+        "rain_mm": 1.0,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 22 जून 2026, सोमवार\n📍 ज़िला: देवरिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 37°/28°C, बारिश की संभावना 49%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 23 जून 2026, मंगलवार\n📍 ज़िला: देवरिया\n\n*मंडी भाव (₹/क्विंटल):*\n• धान: ₹2000 (Devariya APMC मंडी, 22 जून)\n• गेहूं: ₹2450 (Devariya APMC मंडी, 22 जून)\n\n*मौसम:* 36°/27°C, बारिश की संभावना 14%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Ghazipur",
       "hindi": "ग़ाज़ीपुर",
-      "rates": {},
+      "rates": {
+        "धान": {
+          "price": 2400,
+          "date": "2026-06-22",
+          "source": "Yusufpur APMC मंडी",
+          "from": "api"
+        },
+        "गेहूं": {
+          "price": 2450,
+          "date": "2026-06-22",
+          "source": "Jangipura APMC मंडी",
+          "from": "api"
+        },
+        "आलू": {
+          "price": 600,
+          "date": "2026-06-22",
+          "source": "Yusufpur APMC मंडी",
+          "from": "api"
+        },
+        "अदरक": {
+          "price": 2500,
+          "date": "2026-06-22",
+          "source": "Jangipura APMC मंडी",
+          "from": "api"
+        },
+        "उड़द दाल": {
+          "price": 8000,
+          "date": "2026-06-22",
+          "source": "Jangipura APMC मंडी",
+          "from": "api"
+        },
+        "नींबू": {
+          "price": 1600,
+          "date": "2026-06-22",
+          "source": "Jangipura APMC मंडी",
+          "from": "api"
+        }
+      },
       "weather": {
         "tmax": 38,
         "tmin": 29,
-        "rain_prob": 59,
-        "rain_mm": 1.2,
+        "rain_prob": 2,
+        "rain_mm": 0.1,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 22 जून 2026, सोमवार\n📍 ज़िला: ग़ाज़ीपुर\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 38°/29°C, बारिश की संभावना 59%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 23 जून 2026, मंगलवार\n📍 ज़िला: ग़ाज़ीपुर\n\n*मंडी भाव (₹/क्विंटल):*\n• धान: ₹2400 (Yusufpur APMC मंडी, 22 जून)\n• गेहूं: ₹2450 (Jangipura APMC मंडी, 22 जून)\n• आलू: ₹600 (Yusufpur APMC मंडी, 22 जून)\n• अदरक: ₹2500 (Jangipura APMC मंडी, 22 जून)\n• उड़द दाल: ₹8000 (Jangipura APMC मंडी, 22 जून)\n• नींबू: ₹1600 (Jangipura APMC मंडी, 22 जून)\n\n*मौसम:* 38°/29°C, बारिश की संभावना 2%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Azamgarh",
       "hindi": "आज़मगढ़",
-      "rates": {},
+      "rates": {
+        "धान": {
+          "price": 2501,
+          "date": "2026-06-22",
+          "source": "Azamgarh APMC मंडी",
+          "from": "api"
+        },
+        "गेहूं": {
+          "price": 2600,
+          "date": "2026-06-22",
+          "source": "Azamgarh APMC मंडी",
+          "from": "api"
+        },
+        "Firewood": {
+          "price": 450,
+          "date": "2026-06-22",
+          "source": "Azamgarh APMC मंडी",
+          "from": "api"
+        },
+        "अदरक": {
+          "price": 4200,
+          "date": "2026-06-22",
+          "source": "Azamgarh APMC मंडी",
+          "from": "api"
+        },
+        "नींबू": {
+          "price": 2828,
+          "date": "2026-06-22",
+          "source": "Azamgarh APMC मंडी",
+          "from": "api"
+        },
+        "प्याज": {
+          "price": 1551,
+          "date": "2026-06-22",
+          "source": "Azamgarh APMC मंडी",
+          "from": "api"
+        }
+      },
       "weather": {
-        "tmax": 37,
+        "tmax": 38,
         "tmin": 28,
-        "rain_prob": 37,
-        "rain_mm": 1.1,
+        "rain_prob": 2,
+        "rain_mm": 0.3,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 22 जून 2026, सोमवार\n📍 ज़िला: आज़मगढ़\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 37°/28°C, बारिश की संभावना 37%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 23 जून 2026, मंगलवार\n📍 ज़िला: आज़मगढ़\n\n*मंडी भाव (₹/क्विंटल):*\n• धान: ₹2501 (Azamgarh APMC मंडी, 22 जून)\n• गेहूं: ₹2600 (Azamgarh APMC मंडी, 22 जून)\n• Firewood: ₹450 (Azamgarh APMC मंडी, 22 जून)\n• अदरक: ₹4200 (Azamgarh APMC मंडी, 22 जून)\n• नींबू: ₹2828 (Azamgarh APMC मंडी, 22 जून)\n• प्याज: ₹1551 (Azamgarh APMC मंडी, 22 जून)\n\n*मौसम:* 38°/28°C, बारिश की संभावना 2%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     }
   ]
 }
