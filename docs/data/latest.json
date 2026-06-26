@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-25",
+  "date": "2026-06-26",
   "districts": [
     {
       "name": "Ballia",
@@ -8,11 +8,11 @@
       "weather": {
         "tmax": 38,
         "tmin": 29,
-        "rain_prob": 51,
-        "rain_mm": 0.4,
+        "rain_prob": 35,
+        "rain_mm": 1.2,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 25 जून 2026, गुरुवार\n📍 ज़िला: बलिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 38°/29°C, बारिश की संभावना 51%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 26 जून 2026, शुक्रवार\n📍 ज़िला: बलिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 38°/29°C, बारिश की संभावना 35%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Mau",
@@ -20,51 +20,53 @@
       "rates": {},
       "weather": {
         "tmax": 38,
-        "tmin": 28,
-        "rain_prob": 57,
-        "rain_mm": 1.8,
+        "tmin": 29,
+        "rain_prob": 41,
+        "rain_mm": 1.6,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 25 जून 2026, गुरुवार\n📍 ज़िला: मऊ\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 38°/28°C, बारिश की संभावना 57%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 26 जून 2026, शुक्रवार\n📍 ज़िला: मऊ\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 38°/29°C, बारिश की संभावना 41%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Deoria",
       "hindi": "देवरिया",
       "rates": {},
       "weather": {
-        "tmax": 38,
-        "tmin": 28,
-        "rain_prob": 20,
-        "rain_mm": 0.3,
-        "warnings": []
+        "tmax": 37,
+        "tmin": 27,
+        "rain_prob": 94,
+        "rain_mm": 0.8,
+        "warnings": [
+          "⚠️ तेज़ बारिश की संभावना — कटी फसल/अनाज ढककर रखें, मंडी ले जाने से पहले मौसम देख लें।"
+        ]
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 25 जून 2026, गुरुवार\n📍 ज़िला: देवरिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 38°/28°C, बारिश की संभावना 20%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 26 जून 2026, शुक्रवार\n📍 ज़िला: देवरिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 37°/27°C, बारिश की संभावना 94%\n⚠️ तेज़ बारिश की संभावना — कटी फसल/अनाज ढककर रखें, मंडी ले जाने से पहले मौसम देख लें।\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Ghazipur",
       "hindi": "ग़ाज़ीपुर",
       "rates": {},
       "weather": {
-        "tmax": 38,
-        "tmin": 28,
-        "rain_prob": 57,
-        "rain_mm": 1.6,
+        "tmax": 39,
+        "tmin": 31,
+        "rain_prob": 31,
+        "rain_mm": 0.7,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 25 जून 2026, गुरुवार\n📍 ज़िला: ग़ाज़ीपुर\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 38°/28°C, बारिश की संभावना 57%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 26 जून 2026, शुक्रवार\n📍 ज़िला: ग़ाज़ीपुर\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 39°/31°C, बारिश की संभावना 31%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Azamgarh",
       "hindi": "आज़मगढ़",
       "rates": {},
       "weather": {
-        "tmax": 38,
-        "tmin": 28,
-        "rain_prob": 49,
-        "rain_mm": 1.3,
+        "tmax": 37,
+        "tmin": 29,
+        "rain_prob": 37,
+        "rain_mm": 0.2,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 25 जून 2026, गुरुवार\n📍 ज़िला: आज़मगढ़\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 38°/28°C, बारिश की संभावना 49%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 26 जून 2026, शुक्रवार\n📍 ज़िला: आज़मगढ़\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 37°/29°C, बारिश की संभावना 37%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     }
   ]
 }
