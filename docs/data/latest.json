@@ -1,40 +1,131 @@
 {
-  "date": "2026-07-03",
+  "date": "2026-07-04",
   "districts": [
     {
       "name": "Ballia",
       "hindi": "बलिया",
       "rates": {},
-      "weather": null,
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 3 जुलाई 2026, शुक्रवार\n📍 ज़िला: बलिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "weather": {
+        "tmax": 36,
+        "tmin": 30,
+        "rain_prob": 65,
+        "rain_mm": 1.3,
+        "warnings": []
+      },
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 4 जुलाई 2026, शनिवार\n📍 ज़िला: बलिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 36°/30°C, बारिश की संभावना 65%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Mau",
       "hindi": "मऊ",
-      "rates": {},
-      "weather": null,
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 3 जुलाई 2026, शुक्रवार\n📍 ज़िला: मऊ\n\nआज मंडी भाव उपलब्ध नहीं है।\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "rates": {
+        "Raddish": {
+          "price": 1380,
+          "date": "2026-07-04",
+          "source": "Kopaganj APMC मंडी",
+          "from": "api"
+        },
+        "आम": {
+          "price": 3795,
+          "date": "2026-07-04",
+          "source": "Kopaganj APMC मंडी",
+          "from": "api"
+        },
+        "करेला": {
+          "price": 1950,
+          "date": "2026-07-04",
+          "source": "Kopaganj APMC मंडी",
+          "from": "api"
+        },
+        "केला": {
+          "price": 4300,
+          "date": "2026-07-04",
+          "source": "Kopaganj APMC मंडी",
+          "from": "api"
+        },
+        "खीरा": {
+          "price": 1380,
+          "date": "2026-07-04",
+          "source": "Kopaganj APMC मंडी",
+          "from": "api"
+        },
+        "नींबू": {
+          "price": 4000,
+          "date": "2026-07-04",
+          "source": "Kopaganj APMC मंडी",
+          "from": "api"
+        },
+        "फूलगोभी": {
+          "price": 2350,
+          "date": "2026-07-04",
+          "source": "Kopaganj APMC मंडी",
+          "from": "api"
+        },
+        "बैंगन": {
+          "price": 1180,
+          "date": "2026-07-04",
+          "source": "Kopaganj APMC मंडी",
+          "from": "api"
+        },
+        "भिंडी": {
+          "price": 1680,
+          "date": "2026-07-04",
+          "source": "Kopaganj APMC मंडी",
+          "from": "api"
+        },
+        "लौकी": {
+          "price": 1150,
+          "date": "2026-07-04",
+          "source": "Kopaganj APMC मंडी",
+          "from": "api"
+        }
+      },
+      "weather": {
+        "tmax": 36,
+        "tmin": 30,
+        "rain_prob": 47,
+        "rain_mm": 0.8,
+        "warnings": []
+      },
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 4 जुलाई 2026, शनिवार\n📍 ज़िला: मऊ\n\n*मंडी भाव (₹/क्विंटल):*\n• Raddish: ₹1380 (Kopaganj APMC मंडी)\n• आम: ₹3795 (Kopaganj APMC मंडी)\n• करेला: ₹1950 (Kopaganj APMC मंडी)\n• केला: ₹4300 (Kopaganj APMC मंडी)\n• खीरा: ₹1380 (Kopaganj APMC मंडी)\n• नींबू: ₹4000 (Kopaganj APMC मंडी)\n• फूलगोभी: ₹2350 (Kopaganj APMC मंडी)\n• बैंगन: ₹1180 (Kopaganj APMC मंडी)\n• भिंडी: ₹1680 (Kopaganj APMC मंडी)\n• लौकी: ₹1150 (Kopaganj APMC मंडी)\n\n*मौसम:* 36°/30°C, बारिश की संभावना 47%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Deoria",
       "hindi": "देवरिया",
       "rates": {},
-      "weather": null,
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 3 जुलाई 2026, शुक्रवार\n📍 ज़िला: देवरिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "weather": {
+        "tmax": 36,
+        "tmin": 30,
+        "rain_prob": 60,
+        "rain_mm": 1.1,
+        "warnings": []
+      },
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 4 जुलाई 2026, शनिवार\n📍 ज़िला: देवरिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 36°/30°C, बारिश की संभावना 60%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Ghazipur",
       "hindi": "ग़ाज़ीपुर",
       "rates": {},
-      "weather": null,
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 3 जुलाई 2026, शुक्रवार\n📍 ज़िला: ग़ाज़ीपुर\n\nआज मंडी भाव उपलब्ध नहीं है।\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "weather": {
+        "tmax": 36,
+        "tmin": 30,
+        "rain_prob": 49,
+        "rain_mm": 2.5,
+        "warnings": []
+      },
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 4 जुलाई 2026, शनिवार\n📍 ज़िला: ग़ाज़ीपुर\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 36°/30°C, बारिश की संभावना 49%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Azamgarh",
       "hindi": "आज़मगढ़",
       "rates": {},
-      "weather": null,
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 3 जुलाई 2026, शुक्रवार\n📍 ज़िला: आज़मगढ़\n\nआज मंडी भाव उपलब्ध नहीं है।\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "weather": {
+        "tmax": 36,
+        "tmin": 30,
+        "rain_prob": 51,
+        "rain_mm": 0.3,
+        "warnings": []
+      },
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 4 जुलाई 2026, शनिवार\n📍 ज़िला: आज़मगढ़\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 36°/30°C, बारिश की संभावना 51%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     }
   ]
 }
