@@ -1,180 +1,100 @@
 {
-  "date": "2026-08-27",
+  "date": "2026-08-28",
   "districts": [
     {
       "name": "Ballia",
       "hindi": "बलिया",
       "rates": {},
       "weather": {
-        "tmax": 34,
-        "tmin": 27,
-        "rain_prob": 86,
-        "rain_mm": 9.5,
+        "tmax": 33,
+        "tmin": 26,
+        "rain_prob": 88,
+        "rain_mm": 14.6,
         "warnings": [
           "⚠️ तेज़ बारिश की संभावना — कटी फसल/अनाज ढककर रखें, मंडी ले जाने से पहले मौसम देख लें।"
         ]
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 27 अगस्त 2026, गुरुवार\n📍 ज़िला: बलिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 34°/27°C, बारिश की संभावना 86%\n⚠️ तेज़ बारिश की संभावना — कटी फसल/अनाज ढककर रखें, मंडी ले जाने से पहले मौसम देख लें।\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 28 अगस्त 2026, शुक्रवार\n📍 ज़िला: बलिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 33°/26°C, बारिश की संभावना 88%\n⚠️ तेज़ बारिश की संभावना — कटी फसल/अनाज ढककर रखें, मंडी ले जाने से पहले मौसम देख लें।\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Mau",
       "hindi": "मऊ",
-      "rates": {
-        "Apple": {
-          "price": 9000,
-          "date": "2026-08-27",
-          "source": "Kopaganj APMC मंडी",
-          "from": "api"
-        },
-        "Banana - Green": {
-          "price": 1740,
-          "date": "2026-08-27",
-          "source": "Kopaganj APMC मंडी",
-          "from": "api"
-        },
-        "अमरूद": {
-          "price": 4480,
-          "date": "2026-08-27",
-          "source": "Kopaganj APMC मंडी",
-          "from": "api"
-        },
-        "आम": {
-          "price": 3395,
-          "date": "2026-08-27",
-          "source": "Kopaganj APMC मंडी",
-          "from": "api"
-        },
-        "करेला": {
-          "price": 2100,
-          "date": "2026-08-27",
-          "source": "Kopaganj APMC मंडी",
-          "from": "api"
-        },
-        "केला": {
-          "price": 3900,
-          "date": "2026-08-27",
-          "source": "Kopaganj APMC मंडी",
-          "from": "api"
-        },
-        "खीरा": {
-          "price": 1650,
-          "date": "2026-08-27",
-          "source": "Kopaganj APMC मंडी",
-          "from": "api"
-        },
-        "फूलगोभी": {
-          "price": 2330,
-          "date": "2026-08-27",
-          "source": "Kopaganj APMC मंडी",
-          "from": "api"
-        },
-        "बैंगन": {
-          "price": 1480,
-          "date": "2026-08-27",
-          "source": "Kopaganj APMC मंडी",
-          "from": "api"
-        },
-        "भिंडी": {
-          "price": 1588,
-          "date": "2026-08-27",
-          "source": "Kopaganj APMC मंडी",
-          "from": "api"
-        },
-        "लौकी": {
-          "price": 1340,
-          "date": "2026-08-27",
-          "source": "Kopaganj APMC मंडी",
-          "from": "api"
-        }
-      },
+      "rates": {},
       "weather": {
-        "tmax": 34,
-        "tmin": 27,
-        "rain_prob": 89,
-        "rain_mm": 18.6,
+        "tmax": 33,
+        "tmin": 26,
+        "rain_prob": 90,
+        "rain_mm": 10.9,
         "warnings": [
           "⚠️ तेज़ बारिश की संभावना — कटी फसल/अनाज ढककर रखें, मंडी ले जाने से पहले मौसम देख लें।"
         ]
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 27 अगस्त 2026, गुरुवार\n📍 ज़िला: मऊ\n\n*मंडी भाव (₹/क्विंटल):*\n• Apple: ₹9000 (Kopaganj APMC मंडी)\n• Banana - Green: ₹1740 (Kopaganj APMC मंडी)\n• अमरूद: ₹4480 (Kopaganj APMC मंडी)\n• आम: ₹3395 (Kopaganj APMC मंडी)\n• करेला: ₹2100 (Kopaganj APMC मंडी)\n• केला: ₹3900 (Kopaganj APMC मंडी)\n• खीरा: ₹1650 (Kopaganj APMC मंडी)\n• फूलगोभी: ₹2330 (Kopaganj APMC मंडी)\n• बैंगन: ₹1480 (Kopaganj APMC मंडी)\n• भिंडी: ₹1588 (Kopaganj APMC मंडी)\n• लौकी: ₹1340 (Kopaganj APMC मंडी)\n\n*मौसम:* 34°/27°C, बारिश की संभावना 89%\n⚠️ तेज़ बारिश की संभावना — कटी फसल/अनाज ढककर रखें, मंडी ले जाने से पहले मौसम देख लें।\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 28 अगस्त 2026, शुक्रवार\n📍 ज़िला: मऊ\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 33°/26°C, बारिश की संभावना 90%\n⚠️ तेज़ बारिश की संभावना — कटी फसल/अनाज ढककर रखें, मंडी ले जाने से पहले मौसम देख लें।\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Deoria",
       "hindi": "देवरिया",
-      "rates": {
-        "धान": {
-          "price": 2413,
-          "date": "2026-08-27",
-          "source": "Devariya APMC मंडी",
-          "from": "api"
-        }
-      },
+      "rates": {},
       "weather": {
-        "tmax": 32,
-        "tmin": 26,
-        "rain_prob": 91,
-        "rain_mm": 29.8,
+        "tmax": 33,
+        "tmin": 27,
+        "rain_prob": 88,
+        "rain_mm": 11.4,
         "warnings": [
           "⚠️ तेज़ बारिश की संभावना — कटी फसल/अनाज ढककर रखें, मंडी ले जाने से पहले मौसम देख लें।"
         ]
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 27 अगस्त 2026, गुरुवार\n📍 ज़िला: देवरिया\n\n*मंडी भाव (₹/क्विंटल):*\n• धान: ₹2413 (Devariya APMC मंडी)\n\n*मौसम:* 32°/26°C, बारिश की संभावना 91%\n⚠️ तेज़ बारिश की संभावना — कटी फसल/अनाज ढककर रखें, मंडी ले जाने से पहले मौसम देख लें।\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 28 अगस्त 2026, शुक्रवार\n📍 ज़िला: देवरिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 33°/27°C, बारिश की संभावना 88%\n⚠️ तेज़ बारिश की संभावना — कटी फसल/अनाज ढककर रखें, मंडी ले जाने से पहले मौसम देख लें।\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Ghazipur",
       "hindi": "ग़ाज़ीपुर",
       "rates": {
-        "धान": {
-          "price": 2900,
-          "date": "2026-08-27",
-          "source": "Yusufpur APMC मंडी",
+        "गेहूं": {
+          "price": 2450,
+          "date": "2026-08-28",
+          "source": "Jangipura APMC मंडी",
           "from": "api"
         },
         "हरी मिर्च": {
           "price": 1500,
-          "date": "2026-08-27",
+          "date": "2026-08-28",
           "source": "Jangipura APMC मंडी",
           "from": "api"
         }
       },
       "weather": {
-        "tmax": 34,
-        "tmin": 27,
-        "rain_prob": 90,
-        "rain_mm": 11.2,
+        "tmax": 33,
+        "tmin": 26,
+        "rain_prob": 92,
+        "rain_mm": 6.5,
         "warnings": [
           "⚠️ तेज़ बारिश की संभावना — कटी फसल/अनाज ढककर रखें, मंडी ले जाने से पहले मौसम देख लें।"
         ]
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 27 अगस्त 2026, गुरुवार\n📍 ज़िला: ग़ाज़ीपुर\n\n*मंडी भाव (₹/क्विंटल):*\n• धान: ₹2900 (Yusufpur APMC मंडी)\n• हरी मिर्च: ₹1500 (Jangipura APMC मंडी)\n\n*मौसम:* 34°/27°C, बारिश की संभावना 90%\n⚠️ तेज़ बारिश की संभावना — कटी फसल/अनाज ढककर रखें, मंडी ले जाने से पहले मौसम देख लें।\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 28 अगस्त 2026, शुक्रवार\n📍 ज़िला: ग़ाज़ीपुर\n\n*मंडी भाव (₹/क्विंटल):*\n• गेहूं: ₹2450 (Jangipura APMC मंडी)\n• हरी मिर्च: ₹1500 (Jangipura APMC मंडी)\n\n*मौसम:* 33°/26°C, बारिश की संभावना 92%\n⚠️ तेज़ बारिश की संभावना — कटी फसल/अनाज ढककर रखें, मंडी ले जाने से पहले मौसम देख लें।\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Azamgarh",
       "hindi": "आज़मगढ़",
       "rates": {
         "धान": {
-          "price": 2526,
-          "date": "2026-08-27",
-          "source": "Azamgarh APMC मंडी",
-          "from": "api"
-        },
-        "गेहूं": {
-          "price": 2585,
-          "date": "2026-08-27",
+          "price": 2200,
+          "date": "2026-08-28",
           "source": "Azamgarh APMC मंडी",
           "from": "api"
         }
       },
       "weather": {
         "tmax": 33,
-        "tmin": 27,
-        "rain_prob": 93,
-        "rain_mm": 11.6,
+        "tmin": 26,
+        "rain_prob": 96,
+        "rain_mm": 15.7,
         "warnings": [
           "⚠️ तेज़ बारिश की संभावना — कटी फसल/अनाज ढककर रखें, मंडी ले जाने से पहले मौसम देख लें।"
         ]
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 27 अगस्त 2026, गुरुवार\n📍 ज़िला: आज़मगढ़\n\n*मंडी भाव (₹/क्विंटल):*\n• धान: ₹2526 (Azamgarh APMC मंडी)\n• गेहूं: ₹2585 (Azamgarh APMC मंडी)\n\n*मौसम:* 33°/27°C, बारिश की संभावना 93%\n⚠️ तेज़ बारिश की संभावना — कटी फसल/अनाज ढककर रखें, मंडी ले जाने से पहले मौसम देख लें।\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 28 अगस्त 2026, शुक्रवार\n📍 ज़िला: आज़मगढ़\n\n*मंडी भाव (₹/क्विंटल):*\n• धान: ₹2200 (Azamgarh APMC मंडी)\n\n*मौसम:* 33°/26°C, बारिश की संभावना 96%\n⚠️ तेज़ बारिश की संभावना — कटी फसल/अनाज ढककर रखें, मंडी ले जाने से पहले मौसम देख लें।\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     }
   ]
 }
