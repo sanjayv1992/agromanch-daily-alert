@@ -1,44 +1,44 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "districts": [
     {
       "name": "Ballia",
       "hindi": "बलिया",
       "rates": {},
       "weather": {
-        "tmax": 29,
-        "tmin": 22,
-        "rain_prob": 68,
+        "tmax": 28,
+        "tmin": 21,
+        "rain_prob": 57,
         "rain_mm": 0.5,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 9 अक्टूबर 2026, शुक्रवार\n📍 ज़िला: बलिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 29°/22°C, बारिश की संभावना 68%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 10 अक्टूबर 2026, शनिवार\n📍 ज़िला: बलिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 28°/21°C, बारिश की संभावना 57%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Mau",
       "hindi": "मऊ",
       "rates": {},
       "weather": {
-        "tmax": 29,
-        "tmin": 22,
-        "rain_prob": 27,
-        "rain_mm": 0.1,
+        "tmax": 28,
+        "tmin": 21,
+        "rain_prob": 17,
+        "rain_mm": 0.2,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 9 अक्टूबर 2026, शुक्रवार\n📍 ज़िला: मऊ\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 29°/22°C, बारिश की संभावना 27%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 10 अक्टूबर 2026, शनिवार\n📍 ज़िला: मऊ\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 28°/21°C, बारिश की संभावना 17%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Deoria",
       "hindi": "देवरिया",
       "rates": {},
       "weather": {
-        "tmax": 29,
+        "tmax": 28,
         "tmin": 21,
         "rain_prob": 32,
-        "rain_mm": 0.2,
+        "rain_mm": 0.8,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 9 अक्टूबर 2026, शुक्रवार\n📍 ज़िला: देवरिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 29°/21°C, बारिश की संभावना 32%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 10 अक्टूबर 2026, शनिवार\n📍 ज़िला: देवरिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 28°/21°C, बारिश की संभावना 32%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Ghazipur",
@@ -48,23 +48,23 @@
         "tmax": 29,
         "tmin": 23,
         "rain_prob": 43,
-        "rain_mm": 2.0,
+        "rain_mm": 0.5,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 9 अक्टूबर 2026, शुक्रवार\n📍 ज़िला: ग़ाज़ीपुर\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 29°/23°C, बारिश की संभावना 43%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 10 अक्टूबर 2026, शनिवार\n📍 ज़िला: ग़ाज़ीपुर\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 29°/23°C, बारिश की संभावना 43%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Azamgarh",
       "hindi": "आज़मगढ़",
       "rates": {},
       "weather": {
-        "tmax": 29,
-        "tmin": 21,
+        "tmax": 28,
+        "tmin": 22,
         "rain_prob": 22,
-        "rain_mm": 0.7,
+        "rain_mm": 0.1,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 9 अक्टूबर 2026, शुक्रवार\n📍 ज़िला: आज़मगढ़\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 29°/21°C, बारिश की संभावना 22%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 10 अक्टूबर 2026, शनिवार\n📍 ज़िला: आज़मगढ़\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 28°/22°C, बारिश की संभावना 22%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     }
   ]
 }
