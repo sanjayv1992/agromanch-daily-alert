@@ -1,48 +1,9 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "districts": [
     {
       "name": "Ballia",
       "hindi": "बलिया",
-      "rates": {},
-      "weather": {
-        "tmax": 29,
-        "tmin": 18,
-        "rain_prob": 0,
-        "rain_mm": 0.0,
-        "warnings": []
-      },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 7 नवंबर 2026, शनिवार\n📍 ज़िला: बलिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 29°/18°C, बारिश की संभावना 0%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
-    },
-    {
-      "name": "Mau",
-      "hindi": "मऊ",
-      "rates": {},
-      "weather": {
-        "tmax": 29,
-        "tmin": 18,
-        "rain_prob": 0,
-        "rain_mm": 0.0,
-        "warnings": []
-      },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 7 नवंबर 2026, शनिवार\n📍 ज़िला: मऊ\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 29°/18°C, बारिश की संभावना 0%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
-    },
-    {
-      "name": "Deoria",
-      "hindi": "देवरिया",
-      "rates": {},
-      "weather": {
-        "tmax": 28,
-        "tmin": 18,
-        "rain_prob": 0,
-        "rain_mm": 0.0,
-        "warnings": []
-      },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 7 नवंबर 2026, शनिवार\n📍 ज़िला: देवरिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 28°/18°C, बारिश की संभावना 0%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
-    },
-    {
-      "name": "Ghazipur",
-      "hindi": "ग़ाज़ीपुर",
       "rates": {},
       "weather": {
         "tmax": 29,
@@ -51,20 +12,59 @@
         "rain_mm": 0.0,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 7 नवंबर 2026, शनिवार\n📍 ज़िला: ग़ाज़ीपुर\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 29°/19°C, बारिश की संभावना 0%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 8 नवंबर 2026, रविवार\n📍 ज़िला: बलिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 29°/19°C, बारिश की संभावना 0%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+    },
+    {
+      "name": "Mau",
+      "hindi": "मऊ",
+      "rates": {},
+      "weather": {
+        "tmax": 28,
+        "tmin": 18,
+        "rain_prob": 0,
+        "rain_mm": 0.0,
+        "warnings": []
+      },
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 8 नवंबर 2026, रविवार\n📍 ज़िला: मऊ\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 28°/18°C, बारिश की संभावना 0%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+    },
+    {
+      "name": "Deoria",
+      "hindi": "देवरिया",
+      "rates": {},
+      "weather": {
+        "tmax": 28,
+        "tmin": 19,
+        "rain_prob": 0,
+        "rain_mm": 0.0,
+        "warnings": []
+      },
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 8 नवंबर 2026, रविवार\n📍 ज़िला: देवरिया\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 28°/19°C, बारिश की संभावना 0%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+    },
+    {
+      "name": "Ghazipur",
+      "hindi": "ग़ाज़ीपुर",
+      "rates": {},
+      "weather": {
+        "tmax": 28,
+        "tmin": 19,
+        "rain_prob": 0,
+        "rain_mm": 0.0,
+        "warnings": []
+      },
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 8 नवंबर 2026, रविवार\n📍 ज़िला: ग़ाज़ीपुर\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 28°/19°C, बारिश की संभावना 0%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     },
     {
       "name": "Azamgarh",
       "hindi": "आज़मगढ़",
       "rates": {},
       "weather": {
-        "tmax": 29,
-        "tmin": 18,
+        "tmax": 28,
+        "tmin": 19,
         "rain_prob": 0,
         "rain_mm": 0.0,
         "warnings": []
       },
-      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 7 नवंबर 2026, शनिवार\n📍 ज़िला: आज़मगढ़\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 29°/18°C, बारिश की संभावना 0%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
+      "message": "🌾 *अग्रोमंच दैनिक भाव*\n📅 8 नवंबर 2026, रविवार\n📍 ज़िला: आज़मगढ़\n\nआज मंडी भाव उपलब्ध नहीं है।\n\n*मौसम:* 28°/19°C, बारिश की संभावना 0%\n\nℹ️ भाव मंडी के हिसाब से थोड़ा ऊपर-नीचे हो सकता है।\n📲 रोज़ का भाव सीधे फ़ोन पर — Agromanch app:\nhttps://play.google.com/store/apps/details?id=com.agromanch.app"
     }
   ]
 }
